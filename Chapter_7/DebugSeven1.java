@@ -16,9 +16,9 @@ public class DebugSeven1 {
         System.out.print("Third name >> ");
         name3 = kb.nextLine();   // added parentheses
 
-        compareNames(name1, name2);  // corrected method name
-        compareNames(name1, name3);  // corrected method name
-        compareNames(name2, name3);  // corrected method name
+        compareNames(name1, name2);  
+        compareNames(name1, name3);  
+        compareNames(name2, name3);  
     }
 
     public static void compareNames(String n1, String n2) // corrected spelling
